@@ -7,3 +7,4 @@ RefreshEnv
 Set-Location 'C:\ProgramData\chocolatey\bin'
 .\choco.exe feature enable -n allowGlobalConfirmation
 .\choco.exe install opera -y
+.\choco install adblockplusopera -y
