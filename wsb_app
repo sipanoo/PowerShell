@@ -1,3 +1,4 @@
+Set-WinUserLanguageList -LanguageList 'ar-SA', 'de-DE', 'en-US
 Set-ExecutionPolicy Bypass -Scope Process -Force
 irm https://community.chocolatey.org/install.ps1 | iex
 
