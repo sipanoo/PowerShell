@@ -1,5 +1,6 @@
-Set-WinUserLanguageList -LanguageList 'ar-SA', 'de-DE'
+
 Set-ExecutionPolicy Bypass -Scope Process -Force
+Set-WinUserLanguageList -LanguageList 'ar-SA', 'de-DE'
 irm https://community.chocolatey.org/install.ps1 | iex
 
 RefreshEnv
